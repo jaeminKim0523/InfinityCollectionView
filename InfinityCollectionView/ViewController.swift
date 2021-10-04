@@ -92,7 +92,7 @@ class ViewController: UIViewController {
         collectionView.showsHorizontalScrollIndicator = false
         collectionView.showsVerticalScrollIndicator = false
         
-        collectionView.isPagingEnabled = false
+        collectionView.isPagingEnabled = true
         
         collectionView.scrollToItem(at: IndexPath(row: images.count, section: 0), at: .centeredVertically, animated: false)
     }
